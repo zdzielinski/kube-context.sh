@@ -17,9 +17,9 @@ Note: The `~/.kube/contexts` directory is created when `kube-context.sh` is sour
 cluster-a.yaml  cluster-b.yml
 ```
 
-To load new context files, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
+To load the new context files, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
 
-Now you can use your configuration files as contexts:
+Now you can use your new configuration files as contexts:
 
 ```
 ➜  ~ echo $KUBECONFIG
