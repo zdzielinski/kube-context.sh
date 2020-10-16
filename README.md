@@ -15,7 +15,7 @@ Add the `kube-context.sh` file anywhere you please, and source it in your `~/.ba
 
 ➜  ~ cat ~/.zshrc
 ...
-source /usr/bin/kube-context.sh /etc/kubernetes-contexts
+source /usr/bin/kube-context.sh
 ...
 ```
 
@@ -59,7 +59,7 @@ If you prefer to use a directory other than `~/.kube/contexts`, you may specify 
 ```
 ➜  ~ cat ~/.zshrc
 ...
-source /usr/bin/kube-context.sh '/etc/kubernetes-contexts'
+source /usr/bin/kube-context.sh /etc/kubernetes-contexts
 ...
 ```
 
