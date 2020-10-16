@@ -21,9 +21,6 @@ To load new context files in the current terminal session, run the provided func
 
 ```
 ➜  ~ kube-context
-
-➜  ~ echo $KUBECONFIG
-/home/user/.kube/config:/home/user/.kube/contexts/cluster-a.yaml:/home/user/.kube/contexts/cluster-b.yml
 ```
 
 Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
@@ -31,6 +28,9 @@ Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or s
 Now you can use your configuration files as contexts:
 
 ```
+➜  ~ echo $KUBECONFIG
+/home/user/.kube/config:/home/user/.kube/contexts/cluster-a.yaml:/home/user/.kube/contexts/cluster-b.yml
+
 ➜  ~ kubectl config get-contexts
 CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
 *         kubernetes-admin@cluster-a   cluster-a   kubernetes-admin   
