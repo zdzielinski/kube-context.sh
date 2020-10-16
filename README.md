@@ -24,8 +24,10 @@ Now, you can use these as contexts:
 CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
 *         kubernetes-admin@cluster-a   cluster-a   kubernetes-admin   
           kubernetes-admin@cluster-b   cluster-b   kubernetes-admin
+          
 ➜  ~ kubectl config use-context kubernetes-admin@cluster-b
 Switched to context "kubernetes-admin@cluster-b".
+
 ➜  ~ kubectl config get-contexts
 CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
           kubernetes-admin@cluster-a   cluster-a   kubernetes-admin   
