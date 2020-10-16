@@ -30,7 +30,11 @@ Note: The `~/.kube/contexts` directory is created when `kube-context.sh` is call
 cluster-a.yaml  cluster-b.yml
 ```
 
-To load the new context files, either re-source your `rc` file to call `kube-context.sh`, or start a new terminal session.
+To load the new context files, either re-source your `rc` file to call `kube-context.sh`, or start a new terminal session:
+
+```
+➜  ~ source ~/.zshrc
+```
 
 Now you can use your new configuration files as contexts:
 
