@@ -25,7 +25,7 @@ To load new context files in the current terminal session, run the provided func
 
 Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
 
-Now, you can use your configuration files as contexts:
+Now you can use your configuration files as contexts:
 
 ```
 ➜  ~ kubectl config get-contexts
