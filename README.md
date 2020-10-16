@@ -1,6 +1,6 @@
 # kube-context.sh
 
-Easily manage your kubernetes contexts using custom yaml configuration files.
+Easily manage your kubernetes contexts using an independent directory of yaml configuration files.
 
 ## Installation
 
