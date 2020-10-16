@@ -21,6 +21,9 @@ To load new context files in the current terminal session, run the provided func
 
 ```
 ➜  ~ kube-context
+
+➜  ~ echo $KUBECONFIG
+/home/user/.kube/config:/home/user/.kube/contexts/cluster-a.yaml:/home/user/.kube/contexts/cluster-b.yml
 ```
 
 Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
