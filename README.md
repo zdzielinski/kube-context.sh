@@ -17,7 +17,7 @@ Add your kubernetes cluster configuration as `.yml` or `.yaml` files into the `~
 cluster-a.yaml  cluster-b.yml
 ```
 
-To load new context files in the current terminal session, run the following command:
+To load new context files in the current terminal session, run the provided alias:
 
 ```
 ➜  ~ kube-context
