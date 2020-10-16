@@ -21,7 +21,7 @@ To load new context files in the current terminal session, run the provided func
 ➜  ~ kube-context
 ```
 
-Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session. This will also create the `~/.kube/contexts` directory for you.
+Otherwise, either re-source your `rc` file to initialize `kube-context.sh`, or start a new terminal session.
 
 Now, you can use these as contexts:
 
