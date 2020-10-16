@@ -20,7 +20,7 @@ cluster-a.yaml  cluster-b.yml
 Now, you can use these as contexts:
 
 ```
-➜  ~ k config get-contexts
+➜  ~ kubectl config get-contexts
 CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
 *         kubernetes-admin@cluster-a   cluster-a   kubernetes-admin   
           kubernetes-admin@cluster-b   cluster-b   kubernetes-admin
