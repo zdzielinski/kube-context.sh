@@ -3,13 +3,11 @@
 # default kube config file, check for provided directory
 DEFAULT_KUBECONFIG=${1-"$HOME/.kube/config"}
 
-echo $DEFAULT_KUBECONFIG
-
 # if it exists, add it into the KUBECONFIG variable
 # otherwise, clear it for further use
 if test -f $DEFAULT_KUBECONFIG; then
   export KUBECONFIG="$DEFAULT_KUBECONFIG:"
-else; export KUBECONFIG=""; fi
+else export KUBECONFIG=""; fi
 
 # set and create the custom kube contexts directory
 CONTEXTS="$HOME/.kube/contexts"; mkdir -p $CONTEXTS
