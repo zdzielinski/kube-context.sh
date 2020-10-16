@@ -56,6 +56,8 @@ CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
 
 If you prefer to use a directory other than `~/.kube/contexts`, you may specify this when sourcing `kube-context.sh`:
 
+Note: Your user must have permissions to either create this directory, or it must already exist and your user must be able to access it.
+
 ```
 ➜  ~ cat ~/.zshrc
 ...
