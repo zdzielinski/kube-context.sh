@@ -14,15 +14,16 @@ For example:
 
 ```
 ➜  ~ ls ~/.kube/contexts
-cluster01.yaml  cluster-supersecret.yaml  cluster-test.yml
+cluster-a.yaml  cluster-b.yml
 ```
 
 Now, you can use these as contexts:
 
 ```
 ➜  ~ k config get-contexts
-CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
-*         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin
+CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
+*         kubernetes-admin@cluster-a   cluster-a   kubernetes-admin   
+          kubernetes-admin@cluster-b   cluster-b   kubernetes-admin
 ```
 
 # How it Works
