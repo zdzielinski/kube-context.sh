@@ -7,9 +7,11 @@ Easily manage your kubernetes contexts using an independent directory of yaml co
 Add the `kube-context.sh` file anywhere you please, and source it in your `~/.bashrc`, `~/.zshrc`, or similar file:
 
 ```
-➜  ~ git clone git@github.com:zdzielinski/kube-context.sh.git
+➜  ~ git clone https://github.com/zdzielinski/kube-context.sh.git
 
 ➜  ~ sudo cp kube-context.sh/kube-context.sh /usr/bin/
+
+➜  ~ sudo chmod +x /usr/bin/kube-context.sh
 
 ➜  ~ cat ~/.zshrc
 ...
