@@ -9,7 +9,7 @@ Add the `kube-context.sh` file anywhere you please, and source it in your `~/.ba
 ```
 ➜  ~ git clone git@github.com:zdzielinski/kube-context.sh.git
 
-➜  ~ sudo cp kube-context/kube-context.sh /usr/bin/
+➜  ~ sudo cp kube-context.sh/kube-context.sh /usr/bin/
 
 ➜  ~ cat ~/.zshrc
 ...
