@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # helper function for cli usage
-function kube-context-load {
+function kube-context {
   # default kube config file
   DEFAULT_KUBECONFIG="$HOME/.kube/config"
 
@@ -27,4 +27,4 @@ function kube-context-load {
 }
 
 # call the helper function once
-kube-context-load
+kube-context
