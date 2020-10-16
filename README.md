@@ -39,7 +39,18 @@ CURRENT   NAME                         CLUSTER     AUTHINFO           NAMESPACE
 *         kubernetes-admin@cluster-b   cluster-b   kubernetes-admin
 ```
 
-# How it Works
+## Configuration
+
+If you prefer to use a directory other than `~/.kube/contexts`, you may specify this when sourcing `kube-context.sh`:
+
+```
+➜  ~ cat ~/.zshrc
+...
+source /usr/bin/kube-context.sh '/etc/kubernetes-contexts'
+...
+```
+
+## How it Works
 
 Each time `kube-context.sh` is called, it will populate your `KUBECONFIG` environment variable with each `.yml` and `.yaml` file it finds in `~/.kube/contexts`. This allows you to easily use the `kubectl` context switching mechanisms more easily, instead of defining your contexts manually in a separate configuration file.
 
