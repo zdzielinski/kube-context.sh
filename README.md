@@ -8,7 +8,7 @@ Add the `kube-context.sh` file anywhere you please, and source it in your `~/.ba
 
 ## Usage
 
-Re-source your `rc` file to initialize `kube-context.sh`.
+Re-source your `rc` file to initialize `kube-context.sh`, this will create the `~/.kube/contexts` directory for you.
 
 Add your kubernetes cluster configuration as `.yml` or `.yaml` files into the `~/.kube/contexts` directory:
 
