@@ -15,7 +15,7 @@ CONTEXTS="$HOME/.kube/contexts"; mkdir -p $CONTEXTS
 # find all .yml and .yaml files in the custom contexts directory
 # and incorporate them into the KUBECONFIG variable for easier context
 # switching
-find $CONTEXTS -type f -name "*.yml" -o -name "*.yaml" \
+find $CONTEXTS -type f \( -name "*.yml" -o -name "*.yaml" \) \
   -print0 | while IFS= read -r -d '' context; do
     export KUBECONFIG="${KUBECONFIG}${context}:"
   done
